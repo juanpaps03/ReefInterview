@@ -9,3 +9,6 @@ ENVIRONMENT_CONF = {
     "HUBSTAFF_API_URL": os.getenv("hubstaff_api_url"),
     "HUBSTAFF_ORGANIZATION_ID": os.getenv("hubstaff_organization_id"),
 }
+
+DATE_FORMAT = "%Y-%m-%dT%H:%M:%S.%fZ"
+FLASK_PORT = os.getenv("flask_port")
